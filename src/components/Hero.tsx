@@ -3,7 +3,7 @@ import img from '../assets/rmBGPerfilHD.png'
 
 const Hero = () => {
     return (
-        <div className={styles.main} id='#home'>
+        <div className={styles.main} id='home'>
             <div className={styles.imgWrapper}>
                 <img src={img} alt="Perfil Foto" />
             </div>

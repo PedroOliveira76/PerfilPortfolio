@@ -10,9 +10,11 @@
     width: 500px;
     color: rgb(0, 166, 243);
     font-size: larger;
+    text-align: justify;
 }
 .txtWrapper>p{
     color: white;
+    width: 400px;
 }
 
 .imgWrapper{

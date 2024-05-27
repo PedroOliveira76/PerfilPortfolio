@@ -2,10 +2,11 @@ import styles from '../styles/About.module.css'
 import Techs from './Techs'
 const About = () => {
     return (
-        <div className={styles.about}>
 
-            <div className={styles.containerTitle}>
-                <h1>Sobre mim</h1>
+        <div className={styles.about}id='about'>
+
+            <div className={styles.containerTitle} >
+                <h1>Sobre</h1>
                 <div className={styles.line}></div>
             </div>
 

@@ -2,7 +2,7 @@ import styles from '../styles/Projects.module.css'
 
 const Projects = () => {
     return (
-        <div className={styles.containerProjects}>
+        <div id='projects' className={styles.containerProjects} >
             
             <div className={styles.containerTitle}>
                 <h1>Projetos</h1>
