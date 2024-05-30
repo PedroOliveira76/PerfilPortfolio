@@ -1,6 +1,6 @@
 import { FaReact } from "react-icons/fa6";
 import { TbBrandTypescript } from "react-icons/tb";
-import { GrMysql } from "react-icons/gr";
+import { SiMysql } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { FunctionComponent } from "react";
 
@@ -13,7 +13,7 @@ interface propIcon {
 const iconMapping: Record<propIcon['nome'], JSX.Element> = {
     React: <FaReact className={styles.react}/>,
     TypeScript: <TbBrandTypescript className={styles.type}/>,
-    Mysql: <GrMysql className={styles.mysql}/>,
+    Mysql: <SiMysql className={styles.mysql}/>,
     Node: <FaNode className={styles.node}/>,
 };
 

@@ -1,0 +1,61 @@
+.containerCards{
+    background-color: #000319;
+    width: 310px;
+    height: 180px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    border-radius: 1rem;
+    padding: 10px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.titleProject{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.titleProject>h3{
+    width: 100%; 
+    margin-top: 20px;   
+}
+
+.titleProject>p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(0, 166, 243);
+}
+
+.btn > a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.containerImgCode{
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.containerImgCode > img{
+    width: 120px;
+    height: 120px;
+}

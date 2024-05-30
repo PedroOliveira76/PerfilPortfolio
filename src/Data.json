@@ -1,0 +1,20 @@
+
+{
+    "projectData": [
+      {
+        "title": "Projeto 1",
+        "description": "Descrição do Projeto 1",
+        "image": "imagem1.png",
+        "link": "https://linkdoproj1.com"
+      },
+      
+      {
+        "title": "Projeto 2",
+        "description": "Descrição do Projeto 2",
+        "image": "imagem2.png",
+        "link": "https://linkdoproj2.com"
+      }
+
+    ]
+  }
+  
