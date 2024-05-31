@@ -6,9 +6,11 @@
 
 # About -> OK
 
-# Project -> NOT OK / DO the data part of the card project
+# Project -> OK 
 
-# Techs -> OK
+# Icons -> OK
+
+# Footer -> OK
 
 # Cards -> OK 
 

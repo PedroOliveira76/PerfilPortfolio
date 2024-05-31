@@ -1,7 +1,7 @@
 import styles from '../styles/Cards.module.css'
 import { FunctionComponent } from 'react';
 
-
+export 
 interface CardProps{
     title:string;
     description:string;
@@ -18,7 +18,7 @@ const Card:FunctionComponent<CardProps> = ({title, description, image, link}) =>
 
                 <h3>{title}</h3>
                 <p>{description}</p>
-                <button className={styles.btn} ><a href={link} target='_blank'>Visitar</a></button>
+                <a href={link} target='_blank' className={styles.btn} >Visitar</a>
             </div>
 
             <div className={styles.containerImgCode}>

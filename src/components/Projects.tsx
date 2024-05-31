@@ -1,16 +1,20 @@
 import styles from '../styles/Projects.module.css'
 import Card from '../components/Card.tsx'
-import img from '../assets/CodeImg.png'
-
-
-const propsCard = {
-    title:'ToDo List',
-    description:'Feito em React, TypeScript e Node, com sitema em CRUD local',
-    image:`${img}`,
-    link:'https://github.com/PedroOliveira76'
-}
+import Data from '../Data.json'
+import { useEffect, useState } from 'react'
+import { CardProps } from '../components/Card.tsx'
 
 const Projects = () => {
+
+    const [projectData, setProjectData] = useState<CardProps[]>([])
+
+    useEffect(() => {
+        
+        setProjectData(Data.projectData)
+       
+    }, [])
+
+    
     return (
         <div id='projects' className={styles.containerProjects} >
 
@@ -21,11 +25,15 @@ const Projects = () => {
 
             <div className={styles.containerCards}>
 
-                <Card title={propsCard.title} description={propsCard.description} image={propsCard.image} link={propsCard.link}/>
-
-                <Card title={propsCard.title} description={propsCard.description} image={propsCard.image} link={propsCard.link}/>
-
-                <Card title={propsCard.title} description={propsCard.description} image={propsCard.image} link={propsCard.link}/>
+                {projectData.map((item, index) => (
+                    <Card
+                        key={index}
+                        title={item.title}
+                        description={item.description}
+                        image={item.image}
+                        link={item.link}
+                    />
+                ))}
 
             </div>
 

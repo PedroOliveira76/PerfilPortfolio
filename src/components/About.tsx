@@ -1,5 +1,5 @@
 import styles from '../styles/About.module.css'
-import Techs from './Techs'
+import Techs from './Icons'
 const About = () => {
     return (
 

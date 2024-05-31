@@ -1,0 +1,30 @@
+.footer {
+    color: #FFFFFF;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    
+}
+
+.nameTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.containerGit {
+    width: 120px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    transform: scale(1.5);
+}
+
+
