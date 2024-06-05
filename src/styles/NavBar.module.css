@@ -57,22 +57,10 @@
 }
 
 .containerGit {
-    width: 50px;
+    width: 30px;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.linkRede {
-    color: #fffcfc;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: scale(1.2);
-}
-
-.linkRede:hover {
-    color: #424242;
+    font-size: 40px;
 }

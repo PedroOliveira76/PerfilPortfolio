@@ -4,6 +4,7 @@ import Data from '../Data.json'
 import { useEffect, useState } from 'react'
 import { CardProps } from '../components/Card.tsx'
 
+
 const Projects = () => {
 
     const [projectData, setProjectData] = useState<CardProps[]>([])

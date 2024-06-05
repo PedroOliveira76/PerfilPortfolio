@@ -1,14 +1,15 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import styles from '../styles/Headers.module.css'
-import { FaGithub } from "react-icons/fa";
+import styles from '../styles/NavBar.module.css'
 import { useEffect } from 'react';
+import Icons from '../components/Icons.tsx'
 
-export const Headers = () => {
+export const NavBar = () => {
+
 
   useEffect(() => {
-    
-    const scrollToSec = (event:any) => {
+
+    const scrollToSec = (event: any) => {
       event.preventDefault();
       const targetId = event.target.getAttribute('href');
       const targetElement = document.querySelector(targetId);
@@ -17,19 +18,26 @@ export const Headers = () => {
         const y = targetElement.getBoundingClientRect().top + window.scrollY + yOffset;
 
         window.scrollTo({ top: y, behavior: 'smooth' });
-        
+
       }
     };
-  
+
     const links = document.querySelectorAll('a[href^="#"]');
     links.forEach(link => {
       link.addEventListener('click', scrollToSec);
     });
-  
-  
+
+    return () => {
+      links.forEach(link => {
+        link.removeEventListener('click', scrollToSec);
+      });
+    };
+
   }, []);
 
+
   return (
+
     <div className={styles.header}>
 
       <div><strong>Pedro</strong>Henrique</div>
@@ -46,14 +54,12 @@ export const Headers = () => {
 
       <div className={styles.containerGit}>
 
-        <a href="https://github.com/PedroOliveira76" target='_blank' className={styles.linkRede}>
-          <FaGithub className={styles.gitHub} />
-        </a>
-
+          <Icons nome='GitHub' link='https://github.com/PedroOliveira76' />
+    
       </div>
 
     </div>
   )
 }
 
-export default Headers
+export default NavBar

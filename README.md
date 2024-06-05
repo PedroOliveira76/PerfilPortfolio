@@ -1,12 +1,12 @@
 ## Portfolio Project
 
-# Header -> NOT OK / DO Expandable Nav Bar
+# Header -> OK 
 
-# Hero -> NOT OK / DO Responsive
+# Hero -> OK
 
 # About -> OK
 
-# Project -> OK 
+# Project -> NOT OK / Increment New Projects
 
 # Icons -> OK
 

@@ -3,6 +3,7 @@
     height: 400px;
     padding: 20px;
     color: white;
+    
 
 }
 .containerTitle{
@@ -19,21 +20,34 @@
 }
 
 .containerCards{
+  margin-top: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    
 }
 
-@media screen and (max-width: 658px) {
+
+@media screen and (max-width: 968px) {
+  .containerProjects {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 665px) {
     .containerProjects {
       height: 800px !important;
     }
   }
-
-@media screen and (max-width: 968px) {
-    .containerProjects {
-      height: 600px;
+  
+@media screen and (max-width: 425px) {
+    .line{
+      width: 100%;
+    }
+    .containerTitle{
+      justify-content: center;
+      flex-direction: column;
     }
   }

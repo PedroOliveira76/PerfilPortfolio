@@ -1,0 +1,65 @@
+.ToggledNav {
+    color: #FFFFFF;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    background-color: #000000;
+    padding: 1rem;
+}
+
+.containerItem {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #000000;
+    width: 200px;
+    padding: 1rem;
+}
+
+.navLinks {
+    list-style: none;
+    padding: 0;
+}
+
+.linkNav {
+    margin-bottom: 0.5rem;
+}
+
+
+
+.linkNav a {
+    color: white;
+    text-decoration: none;
+}
+
+.linkNav a:hover {
+    color:gray ;
+    text-decoration: underline;
+    
+}
+
+.containerGit {
+    margin-top: 1rem;
+    font-size: 35px;
+}

@@ -1,4 +1,4 @@
-import Headers from './components/Headers'
+import Headers from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
 import Projects from './components/Projects'

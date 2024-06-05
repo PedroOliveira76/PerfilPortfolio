@@ -63,3 +63,13 @@
       height: 800px;
     }
   }
+
+  @media screen and (max-width: 425px) {
+    .line{
+      width: 100%;
+    }
+    .containerTitle{
+      justify-content: center;
+      flex-direction: column;
+    }
+  }

@@ -4,21 +4,21 @@
       {
         "title": "Projeto 1",
         "description": "Descrição do Projeto 1",
-        "image": "/portfolio/src/assets/CodeImg.png",
+        "image": "/assets/CodeImg.png",
         "link": "https://github.com/PedroOliveira76"
       },
       
       {
         "title": "Projeto 2",
         "description": "Descrição do Projeto 2",
-        "image": "/portfolio/src/assets/CodeImg.png",
+        "image": "/assets/CodeImg.png",
         "link": "https://github.com/PedroOliveira76"
       },
 
       {
         "title": "Projeto 3",
         "description": "Descrição do Projeto 3",
-        "image": "/portfolio/src/assets/CodeImg.png",
+        "image": "/assets/CodeImg.png",
         "link": "https://github.com/PedroOliveira76"
       }
 
